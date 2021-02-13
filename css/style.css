@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+    
+button{
+    margin: 10px 0;
+    width: 100px;
+    height: 40px;
+    background: #138080;
+    border-radius: 10px;
+    color: white;
+}
+.main {
+    width: 500px;
+    height: 500px;
+    /*margin: 0 auto;*/
+    border: 3px solid #030000;
+    position: relative;
+    background: #138080;
+
+}
+.child{
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 2px solid #072c2c;
+    box-sizing: border-box;
+    
+}
